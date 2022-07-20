@@ -1,0 +1,75 @@
+body {
+    background-image: url("/images/jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+    /* object-fit: cover; */
+}
+.name {
+    color: rgb(65, 218, 86);
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(114, 183, 247);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.calc {
+    background-color: rgb(70, 112, 202);
+    min-width: 450px;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.calcBottom {
+    text-align: center;
+    color: rgb(88, 8, 194);
+
+}
+
+.screen {
+    display: flex;
+    background-color: rgb(28, 72, 114);
+    min-width: 100px;
+    min-height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    font-size: 24px;
+    justify-content: right;   
+    align-items: flex-end;
+    padding: 1rem; 
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 20px;
+
+}
+
+.button {
+    padding: 20px;
+    background-color: rgb(28, 72, 114);
+    color: rgb(65, 218, 86);
+    border-color: rgb(65, 218, 86);
+}
+
+.button:hover {
+    cursor: pointer;
+    color: rgb(28, 72, 114);
+    background-color: rgb(65, 218, 86);
+    border-color: rgb(28, 72, 114);
+}
+
+.clear {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+.delete {
+    grid-column-start: 3;
+    grid-column-end: span 2;
+}
