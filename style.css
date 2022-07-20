@@ -64,6 +64,18 @@ body {
     border-color: rgb(28, 72, 114);
 }
 
+.operation {
+    color: rgb(28, 72, 114);
+    background-color: rgb(65, 218, 86);
+    border-color: rgb(28, 72, 114);
+}
+
+.operation:hover {
+    background-color: rgb(28, 72, 114);
+    color: rgb(65, 218, 86);
+    border-color: rgb(65, 218, 86);
+}
+
 .clear {
     grid-column-start: 1;
     grid-column-end: span 2;
